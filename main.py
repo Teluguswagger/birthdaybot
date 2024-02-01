@@ -22,9 +22,6 @@ client = tweepy.Client(
     access_token_secret,
     wait_on_rate_limit=True,
 )
-folder_path = 'https://github.com/Teluguswagger/birthdaybot/blob/main/bar.png'
-
-# Function to calculate the progress of the year
 def calculate_year_progress():
     now = datetime.now()
     year_start = datetime(now.year, 1, 1)
@@ -51,7 +48,7 @@ def generate_progress_bar(progress):
     draw.rectangle([0, 0, progress_width, height], fill='blue')
 
     # Save the image to the specified folder
-    img.save(os.path.join(folder_path, 'progress_bar.png'))
+    img.save('progress_bar.png')
 
 # Main function to tweet the progress
 def tweet_year_progress():
@@ -62,7 +59,7 @@ def tweet_year_progress():
     generate_progress_bar(progress)
 
     # Upload the progress bar image and tweet
-    media = api.media_upload(os.path.join(folder_path, 'progress_bar.png'))
+    media = api.media_upload('progress_bar.png')
     api.update_status(status_text, media_ids=[media.media_id])
     print("Tweeted:", status_text)
 
