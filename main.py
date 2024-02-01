@@ -50,7 +50,7 @@ def generate_progress_bar(progress):
     draw.rectangle([0, 0, progress_width, height], fill='blue')
 
     # Save the image to the local directory of the GitHub repository
-    img.save('images/progress_bar.png')
+    img.save('birthdaybot/images/progress_bar.png')
 
 # Main function to tweet the progress
 def tweet_year_progress():
@@ -61,7 +61,7 @@ def tweet_year_progress():
     generate_progress_bar(progress)
 
     # Upload the progress bar image and tweet
-    media = api.media_upload('images/progress_bar.png')  # Update the path to the image
+    media = api.media_upload('birthdaybot/images/progress_bar.png')  # Update the path to the image
     api.update_status(status_text, media_ids=[media.media_id])
     print("Tweeted:", status_text)
 
