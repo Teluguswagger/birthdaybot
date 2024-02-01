@@ -4,11 +4,11 @@ from datetime import datetime
 from PIL import Image, ImageDraw
 
 # Twitter API credentials
-bearer_key = 'AAAAAAAAAAAAAAAAAAAAANa%2FsAEAAAAAVAbXKPO7iPZWtc8Bho8iShmnI1s%3DnX7kjy7d9QKA0Ut6eXCH6ZjmRjxycW7wGwvaD9plLrkv7IAQFI'
-consumer_key = 'FTDhdfklZHXNqNm2JM96NRP1e'
-consumer_secret = 'vfGiYmdmZ3QJzJP8BkZAne8tUeRIRCr0iOMexdDTtfIjaybLuU'
-access_token = '1619200056212729856-toXvG7JyM5dEEfBzbYU6gBFlNN35G8'
-access_token_secret = 'HvrXmI6S5LUAib8NNqYUmPX6ctrlSwv5itDYyVE5dtCX8'
+bearer_key = 'AAAAAAAAAAAAAAAAAAAAANa%2FsAEAAAAA4supkIJjGyNRn6w50OPcTDcGT5g%3Dm8kbW0q8suYbNXBL0pdVq5YG44fXWvpL8JS6SBtYviEM56yWeM'
+consumer_key = 'i9YBCusdiPaMgtAEk2pyG5JFJ'
+consumer_secret = 'RgGZyoxX54UDgdVCYsX6SVXqSa5sSQ7YLhVt6b7imURvgX8tyH'
+access_token = '1619200056212729856-gOObcvjN79yVbhZqDosQNEHXcXqNW7'
+access_token_secret = '5PpbLjblweIpixNTUM0BVUfb2gMMGszbqYZqjQu5QV1UE'
 
 auth = tweepy.OAuth1UserHandler(consumer_key, consumer_secret, access_token, access_token_secret)
 auth.set_access_token(access_token, access_token_secret)
