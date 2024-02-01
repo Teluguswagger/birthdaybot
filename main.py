@@ -22,7 +22,7 @@ client = tweepy.Client(
     access_token_secret,
     wait_on_rate_limit=True,
 )
-folder_path = 'bar.png'
+folder_path = '/github.com/Teluguswagger/birthdaybot/blob/main/bar.png'
 
 # Function to calculate the progress of the year
 def calculate_year_progress():
