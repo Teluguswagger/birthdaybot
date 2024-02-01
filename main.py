@@ -4,7 +4,7 @@ from datetime import datetime
 from PIL import Image, ImageDraw
 
 # Twitter API credentials
-bearer_key = 'AAAAAAAAAAAAAAAAAAAAANa%2FsAEAAAAAVAbXKPO7iPZWtc8Bho8iShmnI1s%3DnX7kjy7d9QKA0Ut6eXCH6ZjmRjxycW7wGwvaD9plLrkv7IAQFI'
+bearer_key = 'AAAAAAAAAAAAAAAAAAAAANa%2FsAEAAAAAVAbXKPO7iPZWtc8Bho8iShmnI1s%3DnX7kjy7d9QKA0Ut6eXCH6ZjmRjxycW7wGwvaD9plLrkv7IAQFI' 
 consumer_key = 'FTDhdfklZHXNqNm2JM96NRP1e'
 consumer_secret = 'vfGiYmdmZ3QJzJP8BkZAne8tUeRIRCr0iOMexdDTtfIjaybLuU'
 access_token = '1619200056212729856-toXvG7JyM5dEEfBzbYU6gBFlNN35G8'
