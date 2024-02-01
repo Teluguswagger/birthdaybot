@@ -1,6 +1,6 @@
 import tweepy
+import os
 from datetime import datetime
-
 from PIL import Image, ImageDraw
 
 # Twitter API credentials
